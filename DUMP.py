@@ -1,7 +1,7 @@
 import re,os,sys
 try:
     os.mkdir('Xtractor')
-    os.mkdir('/sdcard/tonmoy')
+    os.mkdir('/sdcard/dump')
 except:
     pass
 try:
